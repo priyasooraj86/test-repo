@@ -1,0 +1,13 @@
+{
+  "name": "NewsApp Angular7 PWA",
+  "short_name": "NewsApp",
+  "start_url": "index.html",
+  "display": "standalone",
+  "icons": [{
+      "src": "assets/app_home_icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+  }],
+  "background_color": "#c4473a",
+  "theme_color": "#c4473a"
+}
