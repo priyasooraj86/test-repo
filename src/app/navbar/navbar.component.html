@@ -4,6 +4,7 @@
     <span class="example-spacer"></span>
     <a class="example-link" routerLink="/" mat-button>Home</a>
     <a class="example-link" routerLink="/posts" mat-button>Posts</a>
-    <mat-slide-toggle>Dark theme</mat-slide-toggle>
+    <a class="example-link"  routerLink="/login" mat-button>Login</a>
+    <mat-slide-toggle [checked]="isThemeDark | async" (change)="toggleDarkTheme($event.checked)">Dark theme</mat-slide-toggle>
   </mat-toolbar-row>
 </mat-toolbar>

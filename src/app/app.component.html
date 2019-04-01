@@ -1,4 +1,4 @@
-<div class="dark-theme">
+<div [ngClass]="{'dark-theme': isThemeDark | async}">
   <div class="mat-app-background">
     <app-navbar></app-navbar>
     <router-outlet></router-outlet>
